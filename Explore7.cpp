@@ -1,4 +1,3 @@
-
 #include <iostream>
 using namespace std;
 struct Point {
@@ -51,7 +50,7 @@ int main() {
     PrintLine(a);
     cout << "Line b";
     PrintLine(b);
-    a.start.x = b.start.x * -1;
+    a.start.x = 30;
     a.start.y = b.start.y * -1;
     a.end.x = b.end.x * -1;
     a.end.y = b.end.y * -1;
