@@ -35,6 +35,8 @@ int main() {
     strcpy(a.lastName, "Holmes");
 
     // Add code so that Person b's names is James Moriarity
+    strcpy(b.firstName, "James");
+    strcpy(b.lastName, "Moriarity");
 
     cout << "Sentence after strcpy" << endl;
     printPerson(b);
